@@ -1,5 +1,5 @@
 <template>
-  <div class="link">
+  <div class="link-card">
     <img class="preview" :src="src" />
     <div class="content" @click="openPage">
       <span class="title" :title="link">{{ title }}</span>
@@ -34,11 +34,20 @@ const openPage = () => {
 </script>
 
 <style scoped>
-.link {
+.link-card {
   display: inline-block;
   box-shadow: 0 0 12px var(--c-border);
   cursor: pointer;
   transition: all 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.link-card:hover {
+  transform: translate3d(10px, -10px, 10px);
+}
+
+.link-card:hover .title {
+  font-weight: 600;
 }
 
 .preview {
@@ -67,14 +76,6 @@ const openPage = () => {
   white-space: nowrap;
   transition: all 0.2s ease-in;
   transform-origin: left;
-}
-
-.link:hover {
-  transform: translateY(-10px);
-}
-
-.link:hover .title {
-  font-size: 22px;
 }
 
 .desc {

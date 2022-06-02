@@ -1,7 +1,7 @@
 {
-  "name": "front-end-notes",
+  "name": "code-and-focus",
   "version": "1.0.0",
-  "description": "前端笔记",
+  "description": "代码聚焦",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev src",
@@ -12,6 +12,7 @@
   "devDependencies": {
     "@vuepress/client": "^2.0.0-beta.46",
     "@vuepress/core": "^2.0.0-beta.46",
+    "@vuepress/plugin-medium-zoom": "^2.0.0-beta.46",
     "@vuepress/plugin-nprogress": "^2.0.0-beta.46",
     "@vuepress/plugin-register-components": "^2.0.0-beta.46",
     "@vuepress/theme-default": "^2.0.0-beta.46",

@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@vuepress/client': ^2.0.0-beta.46
   '@vuepress/core': ^2.0.0-beta.46
+  '@vuepress/plugin-medium-zoom': ^2.0.0-beta.46
   '@vuepress/plugin-nprogress': ^2.0.0-beta.46
   '@vuepress/plugin-register-components': ^2.0.0-beta.46
   '@vuepress/theme-default': ^2.0.0-beta.46
@@ -13,6 +14,7 @@ specifiers:
 devDependencies:
   '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.46
   '@vuepress/core': registry.npmmirror.com/@vuepress/core/2.0.0-beta.46
+  '@vuepress/plugin-medium-zoom': registry.npmmirror.com/@vuepress/plugin-medium-zoom/2.0.0-beta.46
   '@vuepress/plugin-nprogress': registry.npmmirror.com/@vuepress/plugin-nprogress/2.0.0-beta.46
   '@vuepress/plugin-register-components': registry.npmmirror.com/@vuepress/plugin-register-components/2.0.0-beta.46
   '@vuepress/theme-default': registry.npmmirror.com/@vuepress/theme-default/2.0.0-beta.46
