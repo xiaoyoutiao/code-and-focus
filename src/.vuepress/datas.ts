@@ -63,15 +63,9 @@ const devtoolsGroup: IWebsiteGroupItem = {
     },
   ],
 };
-const libraryGroup: IWebsiteGroupItem = {
-  title: "开源库",
+const libraryToolGroup: IWebsiteGroupItem = {
+  title: "开源工具",
   list: [
-    {
-      title: "vue3",
-      desc: "vue3最新文档, 使用vuepress next重构",
-      src: "/images/staging-cn.vuejs.png",
-      link: "https://staging-cn.vuejs.org/",
-    },
     {
       title: "postcss",
       desc: "是一个用 JavaScript 工具和插件转换 CSS 代码的工具",
@@ -92,6 +86,25 @@ const libraryGroup: IWebsiteGroupItem = {
     },
   ],
 };
+
+const libraryGroup: IWebsiteGroupItem = {
+  title: "开源库",
+  list: [
+    {
+      title: "vue3",
+      desc: "vue3最新文档, 使用vuepress next重构",
+      src: "/images/staging-cn.vuejs.png",
+      link: "https://staging-cn.vuejs.org/",
+    },
+    {
+      title: "xstate",
+      desc: "JavaScript中一个最受欢迎的状态机实现方案",
+      src: "/images/xstate.png",
+      link: "https://xstate.js.org/docs/",
+    },
+  ],
+};
+
 const orgGroup: IWebsiteGroupItem = {
   title: "技术社区",
   list: [
@@ -106,6 +119,12 @@ const orgGroup: IWebsiteGroupItem = {
       desc: "CodePen 是一个社交开发环境。从本质上讲，它允许您在浏览器中编写代码，并在构建时查看其结果",
       src: "/images/codepen.png",
       link: "https://codepen.io/",
+    },
+    {
+      title: "stackblitz",
+      desc: "在线代码开发平台, vscode编辑器风格",
+      src: "/images/stackblitz.png",
+      link: "https://stackblitz.com/",
     },
   ],
 };
@@ -136,6 +155,7 @@ const platformGroup = {
 export const websiteGroups: IWebsiteGroupItem[] = [
   devtoolsGroup,
   libraryGroup,
+  libraryToolGroup,
   orgGroup,
   platformGroup,
 ];

@@ -27,8 +27,8 @@ import { websiteGroups } from "@temp/datas"
 }
 
 .link-item {
-    margin: 15px; 
-    width: 345px
+    margin: 0.9%; 
+    width: 18%
 }
 
 .group {
@@ -41,7 +41,23 @@ import { websiteGroups } from "@temp/datas"
     border: none;
 }
 
+@media (max-width: 1400px) {
+    .link-item {
+        margin-left: 2%;
+        width: 30%;
+    }
+
+    .wrapper {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 720px) {
+    .link-item {
+        margin:15px 10%;
+        width: 80%
+    }
+
     .wrapper {
         justify-content: center;
     }

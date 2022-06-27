@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /hero.png
-actionText: 快速开始 →
+actionText: 快速开始111 →
 actionLink: /guide/
 features:
 - title: 简洁至上
@@ -13,4 +13,4 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-# Hello vuepress
+# Hello vuepress111

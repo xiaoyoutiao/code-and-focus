@@ -11,6 +11,7 @@ export default defineUserConfig({
   title: "代码聚焦",
   description: "Code & Focus",
   pagePatterns: ["**/*{.md,.vue}", "!.vuepress", "!node_modules"],
+  dest: path.resolve(__dirname, "../../dist"),
   plugins: [
     nprogressPlugin(),
     registerComponentsPlugin({
