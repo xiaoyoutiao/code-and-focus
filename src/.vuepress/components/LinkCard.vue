@@ -48,6 +48,7 @@ const openPage = () => {
 
 .link-card:hover .title {
   font-weight: 600;
+  font-size: 20px;
 }
 
 .preview {
@@ -68,7 +69,7 @@ const openPage = () => {
 }
 
 .title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 35px;
   overflow: hidden;

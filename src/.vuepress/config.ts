@@ -8,8 +8,8 @@ import { websiteGroups } from "./datas";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "代码聚焦",
-  description: "Code & Focus",
+  title: "Code => Value",
+  description: "code of value",
   pagePatterns: ["**/*{.md,.vue}", "!.vuepress", "!node_modules"],
   dest: path.resolve(__dirname, "../../dist"),
   plugins: [

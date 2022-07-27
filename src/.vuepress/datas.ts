@@ -10,6 +10,24 @@ interface IWebsiteGroupItem {
   list: IWebsite[];
 }
 
+const news: IWebsiteGroupItem = {
+  title: "开发新闻",
+  list: [
+    {
+      title: "The Vue Point",
+      src: "/images/the_vue_point.png",
+      link: "https://blog.vuejs.org/",
+      desc: "来自 Vue.js 维护者的更新、提示和意见。",
+    },
+    {
+      title: "奇舞周刊",
+      link: "https://weekly.75.team/",
+      src: "/images/default.png",
+      desc: "收集每周前端精华文章，集结成册",
+    },
+  ],
+};
+
 const devtoolsGroup: IWebsiteGroupItem = {
   title: "开发工具",
   list: [
@@ -128,7 +146,8 @@ const orgGroup: IWebsiteGroupItem = {
     },
   ],
 };
-const platformGroup = {
+
+const platformGroup: IWebsiteGroupItem = {
   title: "设计平台",
   list: [
     {
@@ -152,10 +171,24 @@ const platformGroup = {
   ],
 };
 
+const animationLib: IWebsiteGroupItem = {
+  title: "动画相关",
+  list: [
+    {
+      title: "dynamicsjs",
+      desc: "用于创建基于物理的动画的 JavaScript 库",
+      src: "/images/dynamics.png",
+      link: "http://dynamicsjs.com/",
+    },
+  ],
+};
+
 export const websiteGroups: IWebsiteGroupItem[] = [
+  news,
   devtoolsGroup,
   libraryGroup,
   libraryToolGroup,
   orgGroup,
   platformGroup,
+  animationLib,
 ];
