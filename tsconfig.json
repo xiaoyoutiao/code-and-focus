@@ -91,5 +91,14 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  }
+  },
+  "include": [
+    "src/.vuepress/**/*.ts",
+    "src/.vuepress/**/*.vue",
+    "src/.vuepress/**/*.d.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
