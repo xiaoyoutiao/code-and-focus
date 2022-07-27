@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@github-pages
 
     - name: Build and Deploy
-      uses: testthedocs/github-pages-deploy-action@master
+      uses: testthedocs/github-pages-deploy-action@github-pages
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_DIR: dist # The folder, the action should deploy.
