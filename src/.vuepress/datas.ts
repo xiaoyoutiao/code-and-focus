@@ -120,6 +120,12 @@ const libraryGroup: IWebsiteGroupItem = {
       src: "/images/xstate.png",
       link: "https://xstate.js.org/docs/",
     },
+    {
+      title: "nestjs",
+      desc: "用于构建高效且可伸缩的服务端应用程序的渐进式 Node.js 框架。",
+      src: "/images/nestjs.svg",
+      link: "https://docs.nestjs.cn/",
+    },
   ],
 };
 
