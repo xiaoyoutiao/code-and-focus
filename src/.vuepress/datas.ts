@@ -10,6 +10,8 @@ interface IWebsiteGroupItem {
   list: IWebsite[];
 }
 
+const DEFAULT_IMG = "/images/default.png";
+
 const news: IWebsiteGroupItem = {
   title: "开发新闻",
   list: [
@@ -22,7 +24,7 @@ const news: IWebsiteGroupItem = {
     {
       title: "奇舞周刊",
       link: "https://weekly.75.team/",
-      src: "/images/default.png",
+      src: DEFAULT_IMG,
       desc: "收集每周前端精华文章，集结成册",
     },
   ],
@@ -189,6 +191,18 @@ const animationLib: IWebsiteGroupItem = {
   ],
 };
 
+const otherLib: IWebsiteGroupItem = {
+  title: "其他",
+  list: [
+    {
+      title: "roadmap.sh",
+      desc: "學習路線圖",
+      src: DEFAULT_IMG,
+      link: "https://roadmap.sh",
+    },
+  ],
+};
+
 export const websiteGroups: IWebsiteGroupItem[] = [
   news,
   devtoolsGroup,
@@ -197,4 +211,5 @@ export const websiteGroups: IWebsiteGroupItem[] = [
   orgGroup,
   platformGroup,
   animationLib,
+  otherLib,
 ];
