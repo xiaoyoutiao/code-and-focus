@@ -6,4 +6,10 @@ export const sidebar: SidebarConfig = {
       children: ["/engineering/webpack/runtime"],
     },
   ],
+  "/typescript/": [
+    {
+      text: "Typescript",
+      children: ["/typescript/utils"],
+    },
+  ],
 };

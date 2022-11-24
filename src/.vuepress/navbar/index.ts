@@ -13,4 +13,14 @@ export const navbar: NavbarConfig = [
       },
     ],
   },
+  {
+    text: "Typescript",
+    link: "/typescript",
+    children: [
+      {
+        text: "Typescript",
+        children: ["/typescript/utils"],
+      },
+    ],
+  },
 ];
