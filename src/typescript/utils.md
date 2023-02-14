@@ -1,7 +1,7 @@
 # Typescript 内置工具类型介绍
 
 # Awaited
-`Awaited`类型是TypeScript 4.5新增的用于获取`Promise`或`async函数`中的`Promise.resolve`的返回值
+`Awaited`类型是TypeScript 4.5新增的一种内置工具类型, 用于获取`Promise`对象或`async`函数中`已解决(fulfilled)`状态返回值, Awaited会`递归`的去解包嵌套Promise并返回最终的数据类型。
 
 ## 基础用法
 
